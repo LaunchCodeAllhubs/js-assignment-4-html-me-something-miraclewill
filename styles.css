@@ -76,7 +76,7 @@ img {
 
 hr {
     height: 4px;
-    background-color: rgb(236, 98, 98);
+    background-color: red;
     border: none;
     margin: 20px 0px 0px;
 }
@@ -118,7 +118,7 @@ Give a paragraph on your page the id of testP and a class name of funParagraph. 
 }
 
  #mainHeading {
-    color:  rgb(223, 127, 127);
+    color:  red;
  }
 
  #testP {
@@ -132,7 +132,7 @@ Give a paragraph on your page the id of testP and a class name of funParagraph. 
 }
 
 .funParagraph {
-    color:rgb(106, 210, 106);
+    color: green;
 }
 
 
