@@ -1,1 +1,138 @@
-/* Write your CSS here! */
+/* Elements */
+body {
+    background-color: white;
+    font-size: 12pt;
+    color: #333;
+    width: 100vw;
+    /* takes up the page */
+    height: 100vh;
+    margin: 8px;
+    padding: 0px;
+    /* content away from edges */
+    overflow-x: hidden;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+header {
+    background-color:   rgb(106, 210, 106);
+    height: auto;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+}
+
+main {
+    width: 100vw;
+    padding: 30px 100px;
+    box-sizing: border-box; 
+    /* content adheres to padding settings on left and right */
+}
+
+footer {
+    background-color: rgb(106, 210, 106);
+    height: auto;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    color: azure;
+
+}
+
+h1 {
+    color: black;
+font-size: 3.5rem;
+/* rem is relative to default size */
+margin: 0px 0px 10px;
+/* 4 means top right bottom left
+3 means- top, left & right 
+2 means- top & bottom or right & left
+1 means - apply to all directions*/
+
+}
+
+h2 {
+  color: #333;
+  text-transform: uppercase;
+
+
+}
+
+h3 {
+    font-size: 20pt;
+    color:  rgb(73, 193, 55);
+    margin: 5px;
+}
+
+p {
+text-align: justify;
+margin: .5rem 0px;
+}
+
+img {
+    width: 300px;
+    margin: 10px 0px;
+}
+
+hr {
+    height: 4px;
+    background-color: rgb(236, 98, 98);
+    border: none;
+    margin: 20px 0px 0px;
+}
+
+a {
+color: rgb(223, 127, 127); 
+text-decoration: none;
+}
+
+/* Ids */
+
+/* Give a heading on your page the id of mainHeading and use the id selector in styles.css to give it a color value of red.
+
+Give a paragraph on your page the id of testP and a class name of funParagraph. Use the class selector in styles.css to give it a color value of green.
+
+ */
+
+ #pageTitle {
+    color: azure;
+ }
+
+ #page-SubTitle {
+    color: azure;
+ }
+
+ #intro {
+    font-style: italic;
+    margin-bottom: 20px;
+ }
+
+#bartenderpic {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#drinkpic {
+    float: right;
+    margin-left: 20px;
+}
+
+ #mainHeading {
+    color:  rgb(223, 127, 127);
+ }
+
+ #testP {
+    color: rgb(73, 193, 55);
+ }
+/* Classes */
+
+.bordered {
+    border: 4px solid rgb(127, 188, 223);
+    padding: 0;
+}
+
+.funParagraph {
+    color:rgb(106, 210, 106);
+}
+
+
