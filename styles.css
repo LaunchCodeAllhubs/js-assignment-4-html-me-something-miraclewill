@@ -122,7 +122,7 @@ Give a paragraph on your page the id of testP and a class name of funParagraph. 
  }
 
  #testP {
-    color: rgb(73, 193, 55);
+    color: green;
  }
 /* Classes */
 
